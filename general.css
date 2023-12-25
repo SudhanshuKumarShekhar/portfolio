@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 2%;
+    margin-top: 0px;
+}
+
+.header {
+    background-color: rgb(144, 136, 136);
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    align-items: space-between;
+    height: 50px;
+    width: 96%;
+    font-family: 'PT Sans', sans-serif;
+    position: fixed;
+    box-shadow: 2px 3px rgb(150, 134, 134);
+
+}
+
+.header-left{
+    padding-left: 10%;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.header-right{
+    font-size: 25px;
+    font-weight: 400;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    align-items: space-between;
+    padding-right: 10%;
+    padding-left: 25%;
+
+}
+
+
+
+
+
+.intro-left{
+    z-index: 1;
+    flex: 1;
+    position: relative;
+    padding-left: 11%;
+}
+.intro-left .intro-left-name{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.intro-left .intro-left-semiIntro{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.intro-left .intro-left-summery{
+    color: rgb(2, 1, 1);
+    font-weight: 300;
+    font-size: 20px;
+    padding-right: 5%;
+}
+
+.intro-right{
+    background-color: aliceblue;
+    width: 40%;
+    padding-left: 7%;
+    position:fixed;
+    right: 0px;
+    top: 100px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center; 
+    align-items: space-between;
+}
+.intro-right-img{
+    background-color: red;
+    margin-top: 5%;
+    overflow: hidden;
+    object-fit: cover;
+    object-fit: contain;
+    border-radius: 300px;
+
+}
+
+.intro-socialMedia{
+    display: flex;
+    
+}
+.github-logo{
+    background-color: #f0f3e5;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.linkdine-logo{
+    background-color: white;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.instagram-logo{
+    background-color: #e5e9d8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}

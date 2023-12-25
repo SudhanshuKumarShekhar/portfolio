@@ -1,0 +1,138 @@
+.bodyBackground{
+    background: linear-gradient(#e5f2bb, #3783ca);
+    background: -webkit-linear-gradient(#e5f2bb, #3783ca);
+    background: -o-linear-gradient(#e5f2bb,  #3783ca);
+    background: -moz-linear-gradient(#e5f2bb,  #3783ca);
+    
+}
+.intro{
+/*margin-top: 20px;*/
+    
+display: flex;
+justify-content: center;
+justify-content: space-between;
+align-items: center; 
+align-items: space-between;
+box-shadow: 2px 3px rgb(226, 211, 191);
+position: static;
+overflow-y: scroll;
+}
+
+.intro-right{
+    width: 40%;
+    padding-left: 7%;
+    position:fixed;
+    right: 0px;
+    top: 100px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center; 
+    align-items: space-between;
+}
+.intro-right-img{
+    margin-top: 5%;
+    overflow: hidden;
+    object-fit: cover;
+    object-fit: contain;
+    border-radius: 300px;
+
+}
+
+.intro-left{
+    z-index: 1;
+    flex: 1;
+    position: relative;
+    padding-left: 11%;
+}
+.intro-left .intro-left-name{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.intro-left .intro-left-semiIntro{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.intro-left-cvBtn{
+    align-items: center;
+ }
+.cvBtn{
+    background-color: green;
+    width: 230px;
+    box-shadow: 2px 3px  rgb(111, 151, 129);
+    
+}
+.cvBtn p{
+    color: white;
+    font-weight: 700;
+    transform: scale(1,1);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+.cvBtn:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    opacity: .5;
+    background-color: rgb(186, 9, 217);
+    box-shadow: 2px 3px  rgb(165, 145, 172);
+    
+   
+}
+
+.intro-socialMedia{
+    margin-top: 10px;
+    display: flex;
+    
+}
+.socalMedia{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 1px 1px  rgb(165, 145, 172);
+}
+
+.github-logo{
+    background:linear-gradient(45deg,#f09433 0%,#e6683c 25%,#272adc 50%,#852a4e 75%,#441ca1 100%);
+    align-items: center;  
+    border-radius: 50px;
+    
+}
+.linkdine-logo{
+    background-color:#0077b5; 
+    align-items: center;
+    margin-right: 4px;
+    margin-left: 4px;
+    border-radius: 20px;
+}
+.instagram-logo{
+    background:linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    align-items: center;
+    border-radius: 30px;
+}
+
+.github-logo .image, .linkdine-logo .image, .instagram-logo .image{
+    transform: scale(1,1);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+
+}
+.github-logo:hover .image, .linkdine-logo:hover .image, .instagram-logo:hover .image{
+
+    transform: scale(1.2,1.2);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    opacity: .5;
+    cursor: pointer;
+
+}
